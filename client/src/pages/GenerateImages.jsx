@@ -28,7 +28,7 @@ const GenerateImages = () => {
 
         <p className='mt-6 text-sm font-medium'>Describe Your Image</p>
 
-        <textarea onChange={(e)=>setInput(e.Target.value)} value={input} rows={4} className='w-full p-2 px-3 mt-2 outline-none text-sm rounded-md border border-gray-300' placeholder='Describe what you want to see in the image...' required/>
+        <textarea onChange={(e)=>setInput(e.currentTarget.value)} value={input} rows={4} className='w-full p-2 px-3 mt-2 outline-none text-sm rounded-md border border-gray-300' placeholder='Describe what you want to see in the image...' required/>
 
         <p className='mt-4 text-sm font-medium'>Style</p>
 
